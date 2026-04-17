@@ -1,14 +1,14 @@
 # Advanced Data Modeling for Analytics: Retail & E‑commerce Case Study
 
 ## Table of Contents
-- [Projectdescription](#project-description)
+- [Project Description](#project-description)
 - [Aim & Objectives](#aim-and-objectives)
 - [Methodology](#methodology)
 - [Insights & Recommendations](#insights-and-recommendations)
 - [Conclusion](#conclusion)
 
 ## Project Description
-### This project explores advanced data modeling techniques to transform raw transactional, customer, and seller data into a structured model suitable for analytics. Using Power BI and Python, the project builds a star schema, performs correlation analysis, and develops interactive dashboards to uncover insights into sales, revenue drivers, customer sentiment, operations, and seller performance.
+### This project explores advanced data modeling techniques to transform raw transactional, customer, and seller data into a structured model suitable for analytics. Using Power BI and Python, the project builds a snowflake schema, performs correlation analysis, and develops interactive dashboards to uncover insights into sales, revenue drivers, customer sentiment, operations, and seller performance.
 
 ## Aim and Objectives
 ### Aim: To design and implement an advanced data model that supports comprehensive analytics and decision‑making.
@@ -106,7 +106,7 @@ Dimension tables: Customers, Products, Sellers, Campaigns, Date, Location.
 
 
 ### Conclusion
-#### 1. Sentiment vs. Fulfillment: FBS sellers tend to deliver faster and more reliably, which likely contributes to higher positive sentiment.
+#### 1. Sentiment vs. Fulfillment: Sellers using the standard model, tend to deliver faster and more reliably, which likely contributes to higher positive sentiment.
 #### 2. Revenue Concentration: Heavy reliance on Bangkok and Home category suggests vulnerability — diversifying geographically and across categories would stabilize growth.
 #### 3. Customer Reviews: With ~17% negative reviews, there’s room to improve customer experience, especially in Beauty and Groceries.
 
