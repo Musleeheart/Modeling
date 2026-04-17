@@ -36,7 +36,6 @@ Objectives:
 #### Key fact tables in this project includes;
 - Orders table
 - Order Item table
-- Reviews table
 - Shipments table
 
 ### Dimension Tables
@@ -44,8 +43,10 @@ Objectives:
 - Customers table
 - Products table
 - Sellers table
+- Reviews table
 - Date table
 - Location table
+- Campaign table
 
 ## Methodology
 #### 1. Data Preparation – Cleaned, standardized data types and handled nulls.
@@ -54,9 +55,9 @@ Objectives:
 
 #### 3. Data Modeling – 
 
-- Defined Fact Tables: Orders, Order Items, Reviews, Shipments.
+- Defined Fact Tables: Orders, Order Items, Shipments.
 
-- Defined Dimension Tables: Customers, Products, Sellers, Campaigns, Date, Location.
+- Defined Dimension Tables: Customers, Products, Sellers, Reviews, Campaigns, Date, Location.
 
 - Established relationships to support queries.
 
